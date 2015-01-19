@@ -18,6 +18,7 @@
 		2844D8261A58FB0600AB744F /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D8251A58FB0600AB744F /* TicTacToeTests.m */; };
 		2844D8321A59091F00AB744F /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D8301A59091F00AB744F /* GameController.m */; };
 		2844D8361A5A492600AB744F /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2844D8351A5A492600AB744F /* CellView.m */; };
+		28AF3FCB1A6C9F3D00BB56E6 /* ExPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF3FCA1A6C9F3D00BB56E6 /* ExPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		2844D8301A59091F00AB744F /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		2844D8341A5A492600AB744F /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
 		2844D8351A5A492600AB744F /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		28AF3FC91A6C9F3D00BB56E6 /* ExPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExPlayer.h; sourceTree = "<group>"; };
+		28AF3FCA1A6C9F3D00BB56E6 /* ExPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				2822B0131A5B8553000964F1 /* Game.m */,
 				2822B0151A5B8639000964F1 /* Player.h */,
 				2822B0161A5B8639000964F1 /* Player.m */,
+				28AF3FC91A6C9F3D00BB56E6 /* ExPlayer.h */,
+				28AF3FCA1A6C9F3D00BB56E6 /* ExPlayer.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				2844D80F1A58FB0600AB744F /* AppDelegate.m in Sources */,
 				2844D80C1A58FB0600AB744F /* main.m in Sources */,
 				2822B0171A5B8639000964F1 /* Player.m in Sources */,
+				28AF3FCB1A6C9F3D00BB56E6 /* ExPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

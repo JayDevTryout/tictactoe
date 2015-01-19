@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ExPlayer.h"
+#import "Game.h"
 
 @interface TicTacToeTests : XCTestCase
+
+@property (nonatomic, strong) ExPlayer *player;
 
 @end
 
@@ -18,6 +22,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    _player  = [[ExPlayer alloc] initForPlayer:PLAYER_X];
 }
 
 - (void)tearDown {
@@ -27,6 +32,12 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
+    
+    NSLog(@"START TEST");
+    
+    int game[9] = {PLAYER_O, -1, -1, PLAYER_X, PLAYER_X, PLAYER_O, -1, PLAYER_O, -1};
+    NSLog(@"MOVE: %d", [_player getMove:game]);
+    
     XCTAssert(YES, @"Pass");
 }
 
