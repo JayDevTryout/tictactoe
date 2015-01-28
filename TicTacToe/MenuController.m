@@ -22,7 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.title = @"TicTacToe";
     
-    _pickerData = @[@"Human", @"Machine"];
+    _pickerData = @[@"Human", @"Machine", @"ExMachine"];
     
     self.xPicker.delegate = self;
     self.xPicker.dataSource = self;

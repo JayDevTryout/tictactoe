@@ -10,6 +10,7 @@
 
 #define HUMAN 0
 #define MACHINE 1
+#define EXMACHINE 2
 
 extern const int TRIOS[8][3];
 

@@ -8,6 +8,7 @@
 
 #import "Game.h"
 #import "Player.h"
+#import "ExPlayer.h"
 
 // All possible trios rows, columns, diagnols (a trio is three x/o's in a row)
 const int TRIOS[8][3] = {0,1,2,3,4,5,6,7,8,0,3,6,1,4,7,2,5,8,0,4,8,2,4,6};
@@ -37,9 +38,13 @@ int _cells[9];
         
         if (xType == MACHINE)
             _player1 = [[Player alloc] initForPlayer:PLAYER_X];
-        
+        else if (xType == EXMACHINE)
+            _player1 = [[ExPlayer alloc] initForPlayer:PLAYER_X];
+            
         if (oType == MACHINE)
             _player2 = [[Player alloc] initForPlayer:PLAYER_O];
+        else if (oType == EXMACHINE)
+            _player2 = [[ExPlayer alloc] initForPlayer:PLAYER_O];
         
         [self reset];
     }
