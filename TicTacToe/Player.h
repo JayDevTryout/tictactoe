@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+const int CORNERS[4];
+
 @interface Player : NSObject
 
 -(id)initForPlayer:(int)player;
