@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
 
-@interface ExPlayer : NSObject
-
--(id)initForPlayer:(int)player;
--(int)getMove:(int*)game;
-
-@property (nonatomic, assign) int player;
+@interface ExPlayer : Player
 
 @end
