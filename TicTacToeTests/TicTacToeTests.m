@@ -35,7 +35,8 @@
     
     NSLog(@"START TEST");
     
-    int game[9] = {PLAYER_O, -1, -1, PLAYER_X, PLAYER_X, PLAYER_O, -1, PLAYER_O, -1};
+    int game[9] = {PLAYER_O, -1, PLAYER_X, PLAYER_X, -1, -1, PLAYER_X, PLAYER_O, PLAYER_O};
+    
     NSLog(@"MOVE: %d", [_player getMove:game]);
     
     XCTAssert(YES, @"Pass");
